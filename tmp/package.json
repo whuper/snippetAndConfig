@@ -1,0 +1,28 @@
+{
+  "main": "launch.js",
+  "node-main": "lib/background.js",
+  "name": "eh-desktop",
+  "description": "纳里医生",
+  "version": "0.1.0",
+  "keywords": [
+    "node-webkit"
+  ],
+  "window": {
+    "title": "纳里医生",
+    "toolbar": false,
+    "frame": false,
+    "width": 480,
+    "height": 360,
+    "resizable": false,
+    "position": "center",
+    "icon": "nglogo.png",
+    "always-on-top": false,
+    "fullscreen": false,
+    "show": false,
+    "transparent": false
+  },
+  "dependencies": {
+    "semver": "^5.6.0",
+    "shelljs": "^0.8.3"
+  }
+}
